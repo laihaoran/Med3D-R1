@@ -1,0 +1,112 @@
+[
+  {
+    "VolumeName": "/data4/haoranlai/Dataset/CT-RATE/train_fixed_256_128_high/train_31/train_31_a/train_31_a_1.nii.gz",
+    "question": "What unusual finding is present in this image? A) Hiatal hernia B) Atelectasis C) Pleural effusion D) Emphysema",
+    "options": {
+      "A": "Hiatal hernia",
+      "B": "Atelectasis",
+      "C": "Pleural effusion",
+      "D": "Emphysema"
+    },
+    "answer": "D"
+  },
+  {
+    "VolumeName": "/data4/haoranlai/Dataset/CT-RATE/train_fixed_256_128_high/train_31/train_31_a/train_31_a_1.nii.gz",
+    "question": "Select the anomaly that is shown in the image. A) Atelectasis B) Pulmonary fibrotic sequela C) Cardiomegaly D) Mosaic attenuation pattern",
+    "options": {
+      "A": "Atelectasis",
+      "B": "Pulmonary fibrotic sequela",
+      "C": "Cardiomegaly",
+      "D": "Mosaic attenuation pattern"
+    },
+    "answer": "A"
+  },
+  {
+    "VolumeName": "/data4/haoranlai/Dataset/CT-RATE/train_fixed_256_128_high/train_80/train_80_a/train_80_a_1.nii.gz",
+    "question": "What radiological sign of abnormality does this image show? A) Lung opacity B) Peribronchial thickening C) Interlobular septal thickening D) Emphysema",
+    "options": {
+      "A": "Lung opacity",
+      "B": "Peribronchial thickening",
+      "C": "Interlobular septal thickening",
+      "D": "Emphysema"
+    },
+    "answer": "D"
+  },
+  {
+    "VolumeName": "/data4/haoranlai/Dataset/CT-RATE/train_fixed_256_128_high/train_80/train_80_a/train_80_a_1.nii.gz",
+    "question": "Which irregularity is captured in the CT scan? A) Arterial wall calcification B) Bronchiectasis C) Lung nodule D) Peribronchial thickening",
+    "options": {
+      "A": "Arterial wall calcification",
+      "B": "Bronchiectasis",
+      "C": "Lung nodule",
+      "D": "Peribronchial thickening"
+    },
+    "answer": "C"
+  },
+  {
+    "VolumeName": "/data4/haoranlai/Dataset/CT-RATE/train_fixed_256_128_high/train_100/train_100_a/train_100_a_1.nii.gz",
+    "question": "What clinical abnormality does this image demonstrate? A) External medical device B) Peribronchial thickening C) Lymphadenopathy D) Emphysema",
+    "options": {
+      "A": "External medical device",
+      "B": "Peribronchial thickening",
+      "C": "Lymphadenopathy",
+      "D": "Emphysema"
+    },
+    "answer": "A"
+  },
+  {
+    "VolumeName": "/data4/haoranlai/Dataset/CT-RATE/train_fixed_256_128_high/train_100/train_100_a/train_100_a_1.nii.gz",
+    "question": "Which medical condition is discernible in the image? A) Interlobular septal thickening B) Pericardial effusion C) Pleural effusion D) Lung nodule",
+    "options": {
+      "A": "Interlobular septal thickening",
+      "B": "Pericardial effusion",
+      "C": "Pleural effusion",
+      "D": "Lung nodule"
+    },
+    "answer": "B"
+  },
+  {
+    "VolumeName": "/data4/haoranlai/Dataset/CT-RATE/train_fixed_256_128_high/train_100/train_100_a/train_100_a_1.nii.gz",
+    "question": "What can be observed in this image? A) Cardiomegaly B) External medical device C) Emphysema D) Lung nodule",
+    "options": {
+      "A": "Cardiomegaly",
+      "B": "External medical device",
+      "C": "Emphysema",
+      "D": "Lung nodule"
+    },
+    "answer": "C"
+  },
+  {
+    "VolumeName": "/data4/haoranlai/Dataset/CT-RATE/train_fixed_256_128_high/train_100/train_100_a/train_100_a_1.nii.gz",
+    "question": "What condition is indicated by this radiograph? A) External medical device B) Atelectasis C) Pleural effusion D) Lung opacity",
+    "options": {
+      "A": "External medical device",
+      "B": "Atelectasis",
+      "C": "Pleural effusion",
+      "D": "Lung opacity"
+    },
+    "answer": "B"
+  },
+  {
+    "VolumeName": "/data4/haoranlai/Dataset/CT-RATE/train_fixed_256_128_high/train_100/train_100_a/train_100_a_1.nii.gz",
+    "question": "What abnormal trait is shown in this radiological image? A) Lung nodule B) Pleural effusion C) Consolidation D) Lymphadenopathy",
+    "options": {
+      "A": "Lung nodule",
+      "B": "Pleural effusion",
+      "C": "Consolidation",
+      "D": "Lymphadenopathy"
+    },
+    "answer": "A"
+  },
+  {
+    "VolumeName": "/data4/haoranlai/Dataset/CT-RATE/train_fixed_256_128_high/train_100/train_100_a/train_100_a_1.nii.gz",
+    "question": "From the scan, which condition can be inferred? A) Coronary artery wall calcification B) Pleural effusion C) Cardiomegaly D) Lung nodule",
+    "options": {
+      "A": "Coronary artery wall calcification",
+      "B": "Pleural effusion",
+      "C": "Cardiomegaly",
+      "D": "Lung nodule"
+    },
+    "answer": "B"
+  }
+]

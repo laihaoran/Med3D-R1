@@ -1,0 +1,25 @@
+{
+    "zero_optimization": {
+      "stage": 2,
+      "offload_param": {
+        "device": "none"
+      },
+      "overlap_comm": true,
+      "contiguous_gradients": true
+    },
+    "train_micro_batch_size_per_gpu": 8,
+    "bf16": {
+      "enabled": true
+    },
+    "optimizer": {
+      "type": "AdamW",
+      "params": {
+        "lr": 1e-4,
+        "betas": [0.9, 0.999],
+        "eps": 1e-8,
+        "weight_decay": 0.01
+      }
+    },
+    "gradient_accumulation_steps": 1
+  }
+  

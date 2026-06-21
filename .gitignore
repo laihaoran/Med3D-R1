@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+
+# Environments
+.env
+.venv/
+venv/
+.idea/
+.vscode/
+
+# Datasets and annotations
+Data/**/*.json
+Data/**/*.jsonl
+Data/**/*.csv
+Data/**/*.tsv
+Data/**/*.nii
+Data/**/*.nii.gz
+Data/**/*.npy
+Data/**/*.npz
+Data/**/*.h5
+Data/**/*.hdf5
+data/**/*.json
+
+# Model weights and training outputs
+*.bin
+*.ckpt
+*.pth
+*.pt
+*.safetensors
+stage1_sft/LaMed/output/**
+!stage1_sft/LaMed/output/.gitkeep
+stage1_sft/temp_model/PretrainWeight/**
+!stage1_sft/temp_model/PretrainWeight/.gitkeep
+stage2_rl/output/**
+
+# Logs
+*.log
+*.out
+runs/
+wandb/
+debug_log_*.txt
