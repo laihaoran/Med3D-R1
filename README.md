@@ -1,4 +1,4 @@
-# Med3D-R1: Reinforcement Learning for 3D Medical Visual Question Answering
+# Med3D-R1: Mitigating Narrative Bias and Enhancing Reasoning Consistency in 3D Medical Vision-Language Models
 
 [![Paper](https://img.shields.io/badge/Paper-arXiv-red)](https://arxiv.org/abs/TODO)
 [![License](https://img.shields.io/badge/License-MIT-blue)](LICENSE)
@@ -196,18 +196,15 @@ Edit `run_grpo_3d.sh` and change:
 If you find this work useful, please cite:
 
 ```bibtex
-@article{med3dr1,
-  title={Med3D-R1: Reinforcement Learning for 3D Medical Visual Question Answering},
-  author={TODO},
-  journal={arXiv preprint arXiv:TODO},
-  year={2025}
+@article{lai2026med3d,
+  title={Med3D-R1: Incentivizing Clinical Reasoning in 3D Medical Vision-Language Models for Abnormality Diagnosis},
+  author={Lai, Haoran and Jiang, Zihang and Zhang, Kun and Yao, Qingsong and Wang, Rongsheng and He, Zhiyang and Tao, Xiaodong and Wei, Wei and Zhou, Shaohua Kevin},
+  journal={arXiv preprint arXiv:2602.01200},
+  year={2026}
 }
 ```
 
 ## Acknowledgements
-
-- Stage 1 SFT code is built upon [M3D / LaMed](https://github.com/BAAI-DCAI/M3D).
-- Stage 2 RL code is built upon [VLM-R1 / open-r1-multimodal](https://github.com/om-ai-lab/VLM-R1).
 - Base language model: [Qwen2.5-VL](https://github.com/QwenLM/Qwen2.5-VL).
 - Dataset: [CT-RATE](https://huggingface.co/datasets/ibrahimhamamci/CT-RATE).
 
